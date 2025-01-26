@@ -1,31 +1,22 @@
-import React from "react";
+import React from 'react';
 
-const Hero = () => {
+const Header = () => {
   return (
-    <header className="bg-gray-50 py-6">
-      {/* Navbar */}
-      <nav className="max-w-7xl mx-auto px-4 flex justify-between items-center">
-        {/* Logo */}
-        <div className="flex items-center space-x-2">
-          <img src="/logo.svg" alt="Prodmast Logo" className="h-8 w-8" />
-          <span className="text-lg font-bold text-gray-800">Prodmast</span>
-        </div>
-
-        {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-8 text-gray-700">
-          <li className="hover:text-gray-900 cursor-pointer">Home</li>
-          <li className="hover:text-gray-900 cursor-pointer">About</li>
-          <li className="hover:text-gray-900 cursor-pointer">Services</li>
-          <li className="hover:text-gray-900 cursor-pointer">Contact</li>
-        </ul>
-
-        {/* Sign Up Button */}
-        <button className="hidden md:block px-6 py-2 bg-teal-700 text-white rounded-full hover:bg-teal-800">
-          Sign Up
-        </button>
-      </nav>
+    <header className="bg-white shadow p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-primary">Prodmast</h1>
+        <nav>
+          <ul className="flex gap-4">
+            <li><a href="#home" className="text-secondary">Home</a></li>
+            <li><a href="#about" className="text-secondary">About</a></li>
+            <li><a href="#services" className="text-secondary">Services</a></li>
+            <li><a href="#contact" className="text-secondary">Contact</a></li>
+          </ul>
+        </nav>
+        <button className="bg-primary text-black px-4 py-2 rounded">Sign Up</button>
+      </div>
     </header>
   );
 };
 
-export default Hero;
+export default Header;

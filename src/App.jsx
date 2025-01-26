@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from './components/HEader';
-import Main from './components/Main';
+import Hero from './components/Hero';
+import Features from './components/Features';
 import Footer from './components/Footer';
+import "./App.css";
+
 function App() {
   return (
     <div className='font-sans'>
       <Header/>
-      <Main/>
+      <Hero/>
+      <Features/>
       <Footer/>
     </div>
   )
