@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 
 // Import icons from React Icons
 import { FaStarOfLife } from "react-icons/fa";
