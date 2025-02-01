@@ -13,7 +13,7 @@ const Header = () => {
             <li><a href="#contact" className="text-secondary">Contact</a></li>
           </ul>
         </nav>
-        <button className="bg-primary text-black px-4 py-2 rounded">Sign Up</button>
+        <button className="bg-green-900 text-white py-3 px-6 rounded-full shadow-md hover:bg-green-800">Sign Up</button>
       </div>
     </header>
   );
